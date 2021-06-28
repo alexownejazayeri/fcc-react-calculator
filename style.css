@@ -1,0 +1,104 @@
+body {
+  background-color: #5E769A;
+  font-family: system-ui;
+  color: #BAD5F5;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: grid;
+  height: auto;
+  width: 350px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto;
+  grid-template-rows: 90px auto 70px;
+  grid-auto-flow: column;
+  align-content: center;
+  display-content: center;
+}
+
+.display {
+  display: grid;
+  font-size: 25px;
+  grid-column: 1 / 5;
+  align-content: center;
+  display-content: center;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: inset 22px 22px 44px #4a5d7a,
+            inset -22px -22px 44px #728fba;
+}
+
+.button-grid {
+  display: grid;
+  grid-column: 1 / 5;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(4, 70px);
+  grid-gap: 15px;
+  justify-self: center;
+}
+
+.button {
+  grid-auto-flow: row;
+  display: grid;
+  border-radius: 50%;
+  align-content: center;
+  display-content: center;
+  text-align: center;
+  box-shadow:  7px 7px 14px #556a8b,
+             -7px -7px 14px #6782a9;
+}
+
+.button-sad-boi {
+  grid-auto-flow: row;
+  display: grid;
+  border-radius: 50%;
+  align-content: center;
+  display-content: center;
+  text-align: center;
+  box-shadow: inset 13px 13px 37px #4e6280,
+            inset -13px -13px 37px #6e8ab4;
+}
+
+.clear-btn {
+  display: grid;
+  width: 70px;
+  height: 70px;
+  grid-column: 2 / 4;
+  align-content: center;
+  display-content: center;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow:  7px 7px 14px #556a8b,
+             -7px -7px 14px #6782a9
+}
+
+.clear-btn-sad-boi {
+  display: grid;
+  width: 70px;
+  height: 70px;
+  grid-column: 2 / 4;
+  align-content: center;
+  display-content: center;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: inset 13px 13px 37px #4e6280,
+            inset -13px -13px 37px #6e8ab4;
+}
+
+.clear-btn:active {
+  box-shadow: inset 13px 13px 37px #4e6280,
+            inset -13px -13px 37px #6e8ab4;
+}
+
+.button:active {
+  box-shadow: inset 13px 13px 37px #4e6280,
+            inset -13px -13px 37px #6e8ab4;
+}
